@@ -1,4 +1,6 @@
 name: 'Dastardly Scan Action'
+on:
+  workflow_dispatch: 
 description: 'Runs a Dastardly scan against a target site'
 author: 'PortSwigger'
 inputs:
